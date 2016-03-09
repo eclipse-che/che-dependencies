@@ -16,7 +16,7 @@
     <parent>
         <artifactId>maven-parent-pom</artifactId>
         <groupId>org.eclipse.che.parent</groupId>
-        <version>4.0.0-RC13</version>
+        <version>4.0.0-RC14-SNAPSHOT</version>
         <relativePath />
     </parent>
     <groupId>org.eclipse.che.depmgt</groupId>
