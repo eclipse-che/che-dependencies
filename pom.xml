@@ -76,7 +76,7 @@
         <org.eclipse.equinox.registry.version>3.5.400-v20140428-1507</org.eclipse.equinox.registry.version>
         <org.eclipse.jdt.core.version>3.10.0.v20140604-1726</org.eclipse.jdt.core.version>
         <org.eclipse.jetty.version>9.3.1.v20150714</org.eclipse.jetty.version>
-        <org.eclipse.jgit.version>4.0.1.201506240215-r</org.eclipse.jgit.version>
+        <org.eclipse.jgit.version>4.3.1.201605051710-r</org.eclipse.jgit.version>
         <org.eclipse.osgi.version>3.10.0.v20140606-1445</org.eclipse.osgi.version>
         <org.eclipse.search.version>3.10.0.v20150318-0856</org.eclipse.search.version>
         <org.eclipse.text.version>3.5.101</org.eclipse.text.version>
