@@ -109,6 +109,7 @@
         <com.google.gwt.gwtmockito>1.1.4</com.google.gwt.gwtmockito>
         <org.everrest.assured.version>${org.everrest.version}</org.everrest.assured.version>
         <junit.version>4.11</junit.version>
+        <org.apache.maven.plugin-testing-harness.version>3.3.0</org.apache.maven.plugin-testing-harness.version>
         <org.mockito.version>1.9.5</org.mockito.version>
         <org.mockitong.version>0.4</org.mockitong.version>
         <org.testng.version>6.8.8</org.testng.version>
@@ -960,6 +961,12 @@
                         <groupId>com.google.gwt</groupId>
                     </exclusion>
                 </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.maven.plugin-testing</groupId>
+                <artifactId>maven-plugin-testing-harness</artifactId>
+                <version>${org.apache.maven.plugin-testing-harness.version}</version>
+                <scope>test</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
