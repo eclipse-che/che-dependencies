@@ -80,7 +80,7 @@
         <org.eclipse.osgi.version>3.10.0.v20140606-1445</org.eclipse.osgi.version>
         <org.eclipse.search.version>3.10.0.v20150318-0856</org.eclipse.search.version>
         <org.eclipse.text.version>3.5.101</org.eclipse.text.version>
-        <org.everrest.version>1.13.0</org.everrest.version>
+        <org.everrest.version>1.13.1</org.everrest.version>
         <org.javassist.version>3.18.2-GA</org.javassist.version>
         <org.jdom.version>1.1.3</org.jdom.version>
         <org.kohsuke.github-api.version>1.73</org.kohsuke.github-api.version>
