@@ -51,6 +51,7 @@
         <commons-io.version>2.4</commons-io.version>
         <commons-lang.version>2.6</commons-lang.version>
         <io.swagger.version>1.5.9</io.swagger.version>
+        <io.typefox.lsapi.version>0.3.0</io.typefox.lsapi.version>
         <javax.annotation.version>1.2</javax.annotation.version>
         <javax.inject.version>1</javax.inject.version>
         <javax.mail.version>1.4.4</javax.mail.version>
@@ -453,6 +454,28 @@
                 <groupId>io.swagger</groupId>
                 <artifactId>swagger-models</artifactId>
                 <version>${io.swagger.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.typefox.lsapi</groupId>
+                <artifactId>io.typefox.lsapi</artifactId>
+                <version>${io.typefox.lsapi.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <artifactId>jsr305</artifactId>
+                        <groupId>com.google.code.findbugs</groupId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>io.typefox.lsapi</groupId>
+                <artifactId>io.typefox.lsapi.services</artifactId>
+                <version>${io.typefox.lsapi.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <artifactId>jsr305</artifactId>
+                        <groupId>com.google.code.findbugs</groupId>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>javax.annotation</groupId>
