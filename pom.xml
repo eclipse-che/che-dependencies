@@ -61,6 +61,7 @@
         <joda-time.version>2.3</joda-time.version>
         <log4j.version>1.2.17</log4j.version>
         <net.java.dev.jna.version>4.1.0</net.java.dev.jna.version>
+        <org.antlr.st4.version>4.0.7</org.antlr.st4.version>
         <org.antlr.version>3.5.2</org.antlr.version>
         <org.apache.commons.lang3.version>3.4</org.apache.commons.lang3.version>
         <org.apache.lucene.version>5.2.1</org.apache.lucene.version>
@@ -519,6 +520,11 @@
                 <groupId>org.antlr</groupId>
                 <artifactId>antlr-runtime</artifactId>
                 <version>${org.antlr.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.antlr</groupId>
+                <artifactId>ST4</artifactId>
+                <version>${org.antlr.st4.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.commons</groupId>
