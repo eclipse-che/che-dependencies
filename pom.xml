@@ -97,6 +97,13 @@
         <org.vectomatic.lib-gwt-svg.version>0.5.10</org.vectomatic.lib-gwt-svg.version>
         <org.yaml.snakeyaml.version>1.14</org.yaml.snakeyaml.version>
         <?SORTPOM IGNORE?>
+        <!-- language server dependencies -->
+        <org.eclipse.che.ls.csharp.version>1.0.0</org.eclipse.che.ls.csharp.version>
+        <org.eclipse.che.ls.python.version>1.0.0</org.eclipse.che.ls.python.version>
+        <org.eclipse.che.ls.typescript.version>1.0.0</org.eclipse.che.ls.typescript.version>
+        <org.eclipse.che.ls.go.version>1.0.0</org.eclipse.che.ls.go.version>
+        <org.eclipse.che.ls.json.version>1.0.0</org.eclipse.che.ls.json.version>
+        <org.eclipse.che.ls.php.version>1.0.0</org.eclipse.che.ls.php.version>
         <!-- compile time dependencies-->
         <maven.plugin-annotations.version>3.2</maven.plugin-annotations.version>
         <maven.plugin-api.version>2.0</maven.plugin-api.version>
@@ -755,6 +762,42 @@
                 <groupId>org.eclipse.birt.runtime</groupId>
                 <artifactId>org.eclipse.equinox.common</artifactId>
                 <version>${org.eclipse.birt.equinox.common.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.che.ls</groupId>
+                <artifactId>csharp</artifactId>
+                <version>${org.eclipse.che.ls.csharp.version}</version>
+                <type>tar.gz</type>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.che.ls</groupId>
+                <artifactId>go</artifactId>
+                <version>${org.eclipse.che.ls.go.version}</version>
+                <type>tar.gz</type>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.che.ls</groupId>
+                <artifactId>json</artifactId>
+                <version>${org.eclipse.che.ls.json.version}</version>
+                <type>tar.gz</type>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.che.ls</groupId>
+                <artifactId>php</artifactId>
+                <version>${org.eclipse.che.ls.php.version}</version>
+                <type>tar.gz</type>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.che.ls</groupId>
+                <artifactId>python</artifactId>
+                <version>${org.eclipse.che.ls.python.version}</version>
+                <type>tar.gz</type>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.che.ls</groupId>
+                <artifactId>typescript</artifactId>
+                <version>${org.eclipse.che.ls.typescript.version}</version>
+                <type>tar.gz</type>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.core</groupId>
