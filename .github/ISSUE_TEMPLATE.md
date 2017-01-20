@@ -13,3 +13,4 @@ Please help us by providing all of the details listed below. A complete and thou
 **Docker version:** <!--- Use 'docker version' to get the client and engine versions -->   
 
 **Che cli.log output:**  <!--- This file is in the path mounted to `:/data` -->
+
