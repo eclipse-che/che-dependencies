@@ -99,6 +99,7 @@
         <org.slf4j.version>1.7.6</org.slf4j.version>
         <org.vectomatic.lib-gwt-svg.version>0.5.10</org.vectomatic.lib-gwt-svg.version>
         <org.yaml.snakeyaml.version>1.14</org.yaml.snakeyaml.version>
+        <requirejs.upstream.version>2.1.15</requirejs.upstream.version>
         <?SORTPOM IGNORE?>
         <!-- compile time dependencies-->
         <maven.plugin-annotations.version>3.2</maven.plugin-annotations.version>
@@ -415,7 +416,7 @@
                     </exclusion>
                 </exclusions>
             </dependency>
-             <dependency>
+            <dependency>
                 <groupId>io.fabric8</groupId>
                 <artifactId>openshift-client</artifactId>
                 <version>${io.fabric8.openshift-client.version}</version>
@@ -1032,6 +1033,11 @@
                 <groupId>org.vectomatic</groupId>
                 <artifactId>lib-gwt-svg</artifactId>
                 <version>${org.vectomatic.lib-gwt-svg.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.webjars</groupId>
+                <artifactId>requirejs</artifactId>
+                <version>${requirejs.upstream.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.yaml</groupId>
