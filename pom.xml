@@ -89,6 +89,7 @@
         <org.eclipse.persistence.version>2.1.1</org.eclipse.persistence.version>
         <org.eclipse.search.version>3.10.0.v20150318-0856</org.eclipse.search.version>
         <org.eclipse.text.version>3.5.101</org.eclipse.text.version>
+        <org.eclipse.xtext.version>2.10.0</org.eclipse.xtext.version>
         <org.everrest.version>1.13.4</org.everrest.version>
         <org.flyway.version>4.0.3</org.flyway.version>
         <org.javassist.version>3.18.2-GA</org.javassist.version>
@@ -945,12 +946,12 @@
             <dependency>
                 <groupId>org.eclipse.xtext</groupId>
                 <artifactId>org.eclipse.xtext.xbase.lib</artifactId>
-                <version>2.10.0</version>
+                <version>${org.eclipse.xtext.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.xtext</groupId>
                 <artifactId>org.eclipse.xtext.xbase.lib.gwt</artifactId>
-                <version>2.10.0</version>
+                <version>${org.eclipse.xtext.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.everrest</groupId>
