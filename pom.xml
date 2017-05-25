@@ -125,6 +125,7 @@
         <org.mockito.version>1.9.5</org.mockito.version>
         <org.mockitong.version>0.4</org.mockitong.version>
         <org.testng.version>6.8.8</org.testng.version>
+        <com.beust.jcommander.version>1.27</com.beust.jcommander.version>
         <com.tngtech.java>1.9.3</com.tngtech.java>
         <com.googlecode.gwt-test-utils.version>0.47</com.googlecode.gwt-test-utils.version>
         <?SORTPOM RESUME?>
@@ -150,6 +151,11 @@
                 <groupId>ch.qos.logback</groupId>
                 <artifactId>logback-core</artifactId>
                 <version>${ch.qos.logback.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.beust</groupId>
+                <artifactId>jcommander</artifactId>
+                <version>${com.beust.jcommander.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
