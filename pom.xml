@@ -98,6 +98,7 @@
         <org.kohsuke.github-api.version>1.73</org.kohsuke.github-api.version>
         <org.mod4j.org.eclipse.core.expressions.version>3.4.100</org.mod4j.org.eclipse.core.expressions.version>
         <org.reflections.version>0.9.9</org.reflections.version>
+        <org.seleniumhq.selenium.version>3.0.1</org.seleniumhq.selenium.version>
         <org.slf4j.version>1.7.24</org.slf4j.version>
         <org.vectomatic.lib-gwt-svg.version>0.5.12</org.vectomatic.lib-gwt-svg.version>
         <org.yaml.snakeyaml.version>1.14</org.yaml.snakeyaml.version>
