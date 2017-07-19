@@ -1098,10 +1098,6 @@
                         <artifactId>xml-apis</artifactId>
                         <groupId>xml-apis</groupId>
                     </exclusion>
-                    <exclusion>
-                        <artifactId>selenium-java</artifactId>
-                        <groupId>org.seleniumhq.selenium</groupId>
-                    </exclusion>
                 </exclusions>
             </dependency>
             <dependency>
