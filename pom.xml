@@ -115,6 +115,7 @@
         <org.codehaus.plexus.utils.version>3.0.20</org.codehaus.plexus.utils.version>
         <org.eclipse.sisu.version>0.3.0</org.eclipse.sisu.version>
         <org.apache.maven.wagon.version>2.9</org.apache.maven.wagon.version>
+        <org.ow2.asm.version>5.2</org.ow2.asm.version>
 
         <!-- test only dependencies-->
         <com.jayway.restassured.version>2.4.0</com.jayway.restassured.version>
@@ -1063,6 +1064,11 @@
                 <groupId>org.mod4j.org.eclipse.core</groupId>
                 <artifactId>expressions</artifactId>
                 <version>${org.mod4j.org.eclipse.core.expressions.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.ow2.asm</groupId>
+                <artifactId>asm</artifactId>
+                <version>${org.ow2.asm.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.postgresql</groupId>
