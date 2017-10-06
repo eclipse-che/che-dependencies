@@ -133,7 +133,6 @@
         <com.beust.jcommander.version>1.27</com.beust.jcommander.version>
         <com.tngtech.java>1.9.3</com.tngtech.java>
         <com.dumbster.version>1.7.1</com.dumbster.version>
-        <org.keycloak.version>3.2.0.Final</org.keycloak.version>
         <com.googlecode.gwt-test-utils.version>0.47</com.googlecode.gwt-test-utils.version>
         <?SORTPOM RESUME?>
     </properties>
@@ -1034,16 +1033,6 @@
                 <groupId>org.jdom</groupId>
                 <artifactId>jdom</artifactId>
                 <version>${org.jdom.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.keycloak</groupId>
-                <artifactId>keycloak-common</artifactId>
-                <version>${org.keycloak.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.keycloak</groupId>
-                <artifactId>keycloak-core</artifactId>
-                <version>${org.keycloak.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.kohsuke</groupId>
