@@ -135,6 +135,7 @@
         <com.tngtech.java>1.9.3</com.tngtech.java>
         <com.dumbster.version>1.7.1</com.dumbster.version>
         <com.googlecode.gwt-test-utils.version>0.47</com.googlecode.gwt-test-utils.version>
+        <org.projectlombok.lombok.version>1.16.10</org.projectlombok.lombok.version>
         <?SORTPOM RESUME?>
     </properties>
     <dependencyManagement>
@@ -1092,6 +1093,11 @@
                 <groupId>org.postgresql</groupId>
                 <artifactId>postgresql</artifactId>
                 <version>${org.postgresql.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${org.projectlombok.lombok.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.reflections</groupId>
