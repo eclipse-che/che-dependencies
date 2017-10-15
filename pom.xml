@@ -128,7 +128,7 @@
         <junit.version>4.11</junit.version>
         <io.jsonwebtoken.jjwt.version>0.7.0</io.jsonwebtoken.jjwt.version>
         <org.apache.maven.plugin-testing-harness.version>3.3.0</org.apache.maven.plugin-testing-harness.version>
-        <org.mockito.version>2.10</org.mockito.version>
+        <org.mockito.version>2.10.0</org.mockito.version>
         <org.mockitong.version>0.5</org.mockitong.version>
         <org.testng.version>6.8.21</org.testng.version>
         <com.beust.jcommander.version>1.27</com.beust.jcommander.version>
