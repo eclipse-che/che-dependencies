@@ -37,7 +37,7 @@
         <com.fasterxml.jackson.core.version>2.7.7</com.fasterxml.jackson.core.version>
         <com.google.api-client.version>1.19.1</com.google.api-client.version>
         <com.google.code.guice.version>4.1.0</com.google.code.guice.version>
-        <com.google.guava.version>20.0</com.google.guava.version>
+        <com.google.guava.version>21.0</com.google.guava.version>
         <com.google.gwt.gin.version>2.1.2</com.google.gwt.gin.version>
         <com.google.gwt.version>${version.gwt.plugin}</com.google.gwt.version>
         <com.google.http-client.version>1.19.0</com.google.http-client.version>
@@ -100,7 +100,7 @@
         <org.mod4j.org.eclipse.core.expressions.version>3.4.100</org.mod4j.org.eclipse.core.expressions.version>
         <org.postgresql.version>9.4-1201-jdbc41</org.postgresql.version>
         <org.reflections.version>0.9.9</org.reflections.version>
-        <org.seleniumhq.selenium.version>3.0.1</org.seleniumhq.selenium.version>
+        <org.seleniumhq.selenium.version>3.6.0</org.seleniumhq.selenium.version>
         <org.slf4j.version>1.7.24</org.slf4j.version>
         <org.vectomatic.lib-gwt-svg.version>0.5.12</org.vectomatic.lib-gwt-svg.version>
         <org.yaml.snakeyaml.version>1.14</org.yaml.snakeyaml.version>
