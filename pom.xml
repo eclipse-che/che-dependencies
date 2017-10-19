@@ -39,7 +39,7 @@
         <com.google.code.guice.version>4.1.0</com.google.code.guice.version>
         <com.google.guava.version>20.0</com.google.guava.version>
         <com.google.gwt.gin.version>2.1.2</com.google.gwt.gin.version>
-        <com.google.gwt.version>${version.gwt.plugin}</com.google.gwt.version>
+        <com.google.gwt.version>2.8.1</com.google.gwt.version>
         <com.google.http-client.version>1.19.0</com.google.http-client.version>
         <com.google.oauth-client.version>1.19.0</com.google.oauth-client.version>
         <com.googlecode.gson.version>2.3.1</com.googlecode.gson.version>
@@ -83,7 +83,7 @@
         <org.eclipse.equinox.preferences.version>3.5.200-v20140224-1527</org.eclipse.equinox.preferences.version>
         <org.eclipse.equinox.registry.version>3.5.400-v20140428-1507</org.eclipse.equinox.registry.version>
         <org.eclipse.jdt.core.version>3.10.0.v20140604-1726</org.eclipse.jdt.core.version>
-        <org.eclipse.jetty.version>9.3.1.v20150714</org.eclipse.jetty.version>
+        <org.eclipse.jetty.version>9.2.14.v20151106</org.eclipse.jetty.version>
         <org.eclipse.jgit.version>4.3.1.201605051710-r</org.eclipse.jgit.version>
         <org.eclipse.osgi.version>3.10.0.v20140606-1445</org.eclipse.osgi.version>
         <org.eclipse.persistence.eclipselink.version>2.7.0</org.eclipse.persistence.eclipselink.version>
@@ -248,52 +248,31 @@
                 <version>${com.google.gwt.version}</version>
                 <exclusions>
                     <exclusion>
-                        <artifactId>asm</artifactId>
-                        <groupId>org.ow2.asm</groupId>
-                    </exclusion>
-                    <exclusion>
                         <artifactId>commons-collections</artifactId>
                         <groupId>commons-collections</groupId>
                     </exclusion>
                     <exclusion>
-                        <artifactId>xml-apis</artifactId>
-                        <groupId>xml-apis</groupId>
+                        <artifactId>htmlunit</artifactId>
+                        <groupId>net.sourceforge.htmlunit</groupId>
                     </exclusion>
                     <exclusion>
                         <artifactId>httpclient</artifactId>
                         <groupId>org.apache.httpcomponents</groupId>
                     </exclusion>
                     <exclusion>
-                        <artifactId>jetty-http</artifactId>
-                        <groupId>org.eclipse.jetty</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jetty-io</artifactId>
-                        <groupId>org.eclipse.jetty</groupId>
-                    </exclusion>
-                    <exclusion>
                         <artifactId>commons-logging</artifactId>
                         <groupId>commons-logging</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jetty-util</artifactId>
-                        <groupId>org.eclipse.jetty</groupId>
                     </exclusion>
                     <exclusion>
                         <artifactId>asm-commons</artifactId>
                         <groupId>org.ow2.asm</groupId>
                     </exclusion>
                     <exclusion>
-                        <artifactId>jetty-servlet</artifactId>
-                        <groupId>org.eclipse.jetty</groupId>
-                    </exclusion>
-                    <exclusion>
                         <artifactId>httpmime</artifactId>
                         <groupId>org.apache.httpcomponents</groupId>
                     </exclusion>
                 </exclusions>
-            </dependency>
-            <dependency>
+            </dependency>            <dependency>
                 <groupId>com.google.gwt</groupId>
                 <artifactId>gwt-elemental</artifactId>
                 <version>${com.google.gwt.version}</version>
@@ -900,7 +879,27 @@
             </dependency>
             <dependency>
                 <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-http</artifactId>
+                <version>${org.eclipse.jetty.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-security</artifactId>
+                <version>${org.eclipse.jetty.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-server</artifactId>
+                <version>${org.eclipse.jetty.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-servlet</artifactId>
+                <version>${org.eclipse.jetty.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-util</artifactId>
                 <version>${org.eclipse.jetty.version}</version>
             </dependency>
             <dependency>
