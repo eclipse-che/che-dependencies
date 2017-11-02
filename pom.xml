@@ -16,7 +16,7 @@
     <parent>
         <artifactId>maven-parent-pom</artifactId>
         <groupId>org.eclipse.che.parent</groupId>
-        <version>6.0.0-M1-SNAPSHOT</version>
+        <version>6.0.0-M1</version>
         <relativePath />
     </parent>
     <groupId>org.eclipse.che.depmgt</groupId>
