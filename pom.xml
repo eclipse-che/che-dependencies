@@ -124,7 +124,7 @@
         <com.jayway.restassured.version>2.4.0</com.jayway.restassured.version>
         <org.easytesting.fest-assert.version>1.4</org.easytesting.fest-assert.version>
         <org.hamcrest.version>1.3</org.hamcrest.version>
-        <com.google.gwt.gwtmockito>1.1.7</com.google.gwt.gwtmockito>
+        <com.google.gwt.gwtmockito>1.1.8</com.google.gwt.gwtmockito>
         <org.everrest.assured.version>${org.everrest.version}</org.everrest.assured.version>
         <junit.version>4.11</junit.version>
         <io.jsonwebtoken.jjwt.version>0.9.0</io.jsonwebtoken.jjwt.version>
