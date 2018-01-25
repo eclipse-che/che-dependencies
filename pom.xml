@@ -65,6 +65,7 @@
         <javax.websocket.api.version>1.1</javax.websocket.api.version>
         <javax.ws.rs.version>2.0</javax.ws.rs.version>
         <jdbc.postgresql-driver.version>${org.postgresql.version}</jdbc.postgresql-driver.version>
+        <jdt.ls.extension.api.version>0.0.1-SNAPSHOT</jdt.ls.extension.api.version>
         <joda-time.version>2.3</joda-time.version>
         <log4j.version>1.2.17</log4j.version>
         <logstash.logback.encoder.version>4.11</logstash.logback.encoder.version>
@@ -864,6 +865,17 @@
                 <groupId>org.eclipse.birt.runtime</groupId>
                 <artifactId>org.eclipse.equinox.common</artifactId>
                 <version>${org.eclipse.birt.equinox.common.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.che.ls.jdt</groupId>
+                <artifactId>jdt.ls.extension.api</artifactId>
+                <version>${jdt.ls.extension.api.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.che.ls.jdt</groupId>
+                <artifactId>jdt.ls.extension.api</artifactId>
+                <version>${jdt.ls.extension.api.version}</version>
+                <classifier>sources</classifier>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.core</groupId>
